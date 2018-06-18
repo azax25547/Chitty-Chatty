@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+ 
+  #login{
+     background:url('https://images.pexels.com/photos/1061580/pexels-photo-1061580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+     height:100vh;
+     background-position: center;
+     background-size:cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+    
+}#login p{
+    color:#333;
+    word-spacing:1px;
+    letter-spacing:2px;
+    text-shadow: 0 0 2px #dcdcdc;
+}
+#login h3{
+    font-size:35px;
+    color: #acaaca;
+}
+  #join{
+      
+      background:linear-gradient(to top, #cdcdcd, #fcffcf);
+  }
+span{
+    color:#323323;
+    word-spacing:1px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 2x #dcccdc;
+  }
+  .navbar .navbar-brand{
+      color:#fcfccc;
+      text-shadow: 0 0  5px #cccddd;
+  }
+  p span{
+      font-size:20px;
+      color:#ea4500;
+  }
+  p{
+      font-size:20px;
+  }
+  .form-groups{
+    display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  }
+ #forgot{
+      text-decoration:none;
+      color:#333;
+      font-size:15px;
+  }
+  #buttons{
+      margin:5% 30%;
+  }
+  span.ip-icon{
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  input:hover{
+      opacity:0.8;
+  }
+  
