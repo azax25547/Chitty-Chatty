@@ -11,7 +11,7 @@
           if($resCheck > 0){
               while($row = mysqli_fetch_assoc($res)){
                   echo "<div id=users>";
-                  echo "<img src='assets/images/user.png' alt='user'> <br>".$row['pname'];
+                  echo "<img src='assets/images/".$row['image']."' width=128 height=128 alt='img not uploaded'><br>"."<b>".$row['pname']."</b>";
                   echo "<br>";
                   echo "</div>";
               }

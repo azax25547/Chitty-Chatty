@@ -34,6 +34,7 @@ if(isset($_POST['submit'])){
                     $_SESSION['u_email'] = $row['pemail'];
                     $_SESSION['u_desc'] = $row['pdesc'];
                     $_SESSION['u_num'] = $row['pnum'];
+                    $_SESSION['u_image'] = $row['image'];
                      header("Location:../profile.php?uid='$name'");
                 }
             }

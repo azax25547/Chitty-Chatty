@@ -24,7 +24,7 @@
               Log In
             </button>
             
-            <!-- Modal -->
+            <!-- LogIn Modal -->
             <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -65,7 +65,7 @@
               </div>
             </div>
 
-                            
+            
 
 
                   <!-- Button trigger modal -->
@@ -73,7 +73,7 @@
                     Join Us
                   </button>
                   
-                  <!-- Modal -->
+                  <!-- SignUp Modal -->
                   <div class="modal fade" id="modelId1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
@@ -87,7 +87,7 @@
                         
                       <p>Create a new account <br>
                      It's free and always will be.</p>
-                      <form action="includes/registration.php" method="POST">
+                      <form action="includes/registration.php" method="POST"  enctype="multipart/form-data">
                       <div class="form-group">
                         <input type="text" class="form-control" name="name"  placeholder="Full Name" >
                         </div>
@@ -101,11 +101,18 @@
                         <input type="text" name="user" placeholder="Pick an Username" class="form-control">
                      
                       </div>
+                      <div class="form-group">
+                        <input type="number"  name="num" placeholder="Your Phone Number" class="form-control">
+                     
+                      </div>
                      
                       <div class="form-group">
                         <input type="password" name="pass" placeholder="New Password" class="form-control">
                       </div>
-
+                      <div class="form-group">
+                        Choose a photo: 
+                        <input type="file" name="file" id="">
+                      </div>
                       <br>
                       <span class="small">By clicking Sign Up, you agree to our <a href="#">Terms</a>,<a href="#"> Data Policy</a> and <a href="#">Cookie Policy</a> . You may receive SMS notifications from us and can opt out at any time</span>
                       <br>

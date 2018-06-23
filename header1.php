@@ -49,9 +49,13 @@
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0" style="display:flex; flex-direction:row;">
             <li class="nav-item mx-2">
             
-            <form class="form-inline" action="profile.php" method="POST">
+            <a href="profile.php">
               <button class="btn btn-alert" name="submit" type="submit"><i class="fa fa-home"></i></button>
-          </form></li>
+            </a></li>
+          <li class="nav-item mx-2">
+            <a href="post.php">
+              <button class="btn btn-alert" name="submit" type="submit">Post</button>
+</a> 
             <li class="nav-item mx-2">
             <form class="form-group" action="users.php" method="POST">
               <button class="btn btn-alert" name="submit" type="submit">Users</button>

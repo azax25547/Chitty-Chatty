@@ -6,7 +6,7 @@ if(isset($_SESSION['user_id'])){
     ?>
       
         <div class="msgbox w3-padding-32">
-        <div class="name-center"></div>
+        
         <div class="msgarea w3-margin-large">
 
             <?php

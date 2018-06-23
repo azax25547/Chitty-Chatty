@@ -13,11 +13,8 @@ if(isset($_POST['submit'])){
         exit();
     }else{
         $q = "update registration set pname = '$name', pdesc = '$desc', pnum = '$num' where pemail = '$email'";
-       $res= mysqli_query($conn,$q);   
-       $row = mysqli_fetch_assoc($res);
-       $_SESSION['pro_name'] = $row['pname'];
-       $_SESSION['pro_num'] = $row['pnum'];
-       $_SESSION['pro_desc'] = $row['pdesc'];
+       $res= mysqli_query($conn,$q); 
+       
        header("Location:../profile.php?success");
         exit();
         }
