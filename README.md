@@ -8,5 +8,5 @@ Currently its in developing stage and i have provided just all the source codes
 
 If you want to contribute it You Can do it
 
-[![Watch the video]https://i.imgur.com/kePRxdx.png)](https://youtu.be/LRpWSoLfRqU)
+[![Watch the video](https://i.imgur.com/kePRxdx.png)](https://youtu.be/LRpWSoLfRqU)
 
